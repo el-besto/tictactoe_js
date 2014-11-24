@@ -1,0 +1,85 @@
+/* global styles */
+body{
+  background-color: rgba(255,71,0, 1);
+  border-color: rgb(102,153,153);
+  color: white;
+  text-align: center;
+  font-family: monaco, consolas, monospace;
+  font-size: 3em;
+
+}
+  a{
+    color: rgba(102,153,153, 1);
+    margin: auto;
+  }
+  a:visited{
+    color: black;
+  }
+  ul{
+    list-style-type: none;
+    margin:auto;
+  }
+.button{
+  padding: 10px;
+  font: monospace;
+  color: white;
+  font-size: .5em;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+
+
+/* gameBoard styles */
+.board{
+  border: 30px solid rgb(102,153,153);
+  border-radius: 20px;
+  height: 60%;
+  width: 60%;
+  margin: auto;
+}
+  .board li{
+    font-size: 3em;
+    float: left;
+  }
+  .space{
+      width:33%;
+      height:33%;
+      text-align: center;
+      font-size: 7em;
+      font-family: monospace;
+    float: left;
+  }
+  .middleCol{
+      border-left:5px solid rgb(102,153,153);
+      border-right:5px solid rgb(102,153,153);
+  }
+  .middleRow{
+      border-top:5px solid rgb(102,153,153);
+      border-bottom:5px solid rgb(102,153,153);
+  }
+  .empty{
+    background-color: red;
+  }
+  .active{
+
+  }
+
+.red{
+  background-color: red;
+}
+.black{
+  color: black;
+}
+/*.playerO{
+  fa-circle-o /* f10c 
+}
+.playerX{
+  fa-times-circle /* f057 
+  fa-fw 
+}
+
+#tic-tac-toe #game li {float:left; padding:0; list-style:none; text-align:center; margin-bottom:20px; color:#fff; height:60px; line-height:60px; font-size:40px; color:#ccc}
+#tic-tac-toe #game {float:left; padding:0; clear:both}
+
+*/
